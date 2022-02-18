@@ -41,7 +41,7 @@ fun App() {
 
 fun main() = application {
     Window(
-        state = WindowState(width = 500.dp, height = 500.dp),
+        state = WindowState(width = 1200.dp, height = 800.dp),
         resizable = false,
         onCloseRequest = ::exitApplication,
         title = "StopWatch",
